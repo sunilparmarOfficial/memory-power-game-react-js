@@ -1,0 +1,30 @@
+.BoxContainer{
+  display:flex;
+  gap: 1rem;
+  flex-wrap:wrap;
+  width: 300px;
+  border: 1px none;
+  padding: 50px;
+  margin: 20px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
