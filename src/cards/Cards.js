@@ -34,7 +34,7 @@ const Cards = () => {
   }, [defaultTotalLenght])
 
   const handleClickBox = (sequence) => {
-    if (totalLifeLine > 0) {
+    if (totalLifeLine > 0 && hideFalg) {
       const result = resultArr.find(item => item.sequence === sequence)
       if (result === undefined) {
         setTotalLifeLine((preState) => preState - 1)
